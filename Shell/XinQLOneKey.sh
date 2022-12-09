@@ -50,17 +50,16 @@ pnpm add -g pnpm
 
 pnpm install -g
 
-npm install -g npm png-js date-fns axios crypto-js ts-md5 tslib @types/node requests tough-cookie jsdom download tunnel fs ws form-data
-
+npm install -g npm png-js date-fns axios crypto-js ts-md5 tslib @types/node requests tough-cookie jsdom download tunnel fs ws form-data prettytable dotenv jsdom tslib ws@7.4.3 jsdom jieba form-data json5 global-agent require typescript axios
 pnpm install -g js-base64 qrcode-terminal silly-datetime
 
-pip3 install requests
+pip3 install requests canvas ping3 jieba aiohttp
 
 cd /ql/data/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
 cd /ql
 apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd /ql/data/scripts/ && npm install canvas --build-from-source
 cd /ql
-apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
+apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev bizCode bizMsg Ixml
 
 echo
 TIME g "依赖安装完毕...建议重启 Docker "
